@@ -8,7 +8,7 @@ for word in words:
     root = word
     suffix = "-"
     mtype = "Unknown"
-
+    
     if word.endswith("ing"):
         suffix = "ing"
         root = word[:-3]
